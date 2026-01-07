@@ -13,3 +13,23 @@
 .cards-banner-one p {
     margin: 10px 0;
 }
+
+.two {
+    background-image: url(imgs/image-five.jpg);
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center/cover;
+    text-align: right;
+}
+
+.right {
+    width: 55%;
+    text-align: right;
+}
+
+.content-right h2,
+.content-right p {
+    text-align: right;
+}
