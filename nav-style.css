@@ -1,0 +1,36 @@
+/* estilos para la navegacion */
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-branch {
+    width: 50px;
+}
+
+/* navegacion left  */
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 6px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 3px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
